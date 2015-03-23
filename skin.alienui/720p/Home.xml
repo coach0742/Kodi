@@ -972,13 +972,13 @@
 						<visible>!Skin.HasSetting(HomeMenuNoTVShowButton) + Library.HasContent(TVShows)</visible>
 					</item>
 					<item id="91">
-                        <label>31842</label> <!-- Games -->
-                        <onclick condition="!System.Platform.Android">ActivateWindow(Programs,Addons,return)</onclick>
+                        			<label>31842</label> <!-- Games -->
+                        			<onclick condition="!System.Platform.Android">ActivateWindow(Programs,Addons,return)</onclick>
 						<onclick condition="System.Platform.Android">ActivateWindow(Programs)</onclick>
-                        <!--onclick>XBMC.RunScript("special://skin\scripts\launch_steam.py")</onclick-->
-                        <icon>alienware/icon_Helpcontroller.png</icon>
-                        <visible>!Skin.HasSetting(HomeMenuNoGamesButton)</visible>
-                    </item>
+                        			<!--onclick>XBMC.RunScript("special://skin\scripts\launch_steam.py")</onclick-->
+                        			<icon>alienware/icon_Helpcontroller.png</icon>
+			                        <visible>!Skin.HasSetting(HomeMenuNoGamesButton)</visible>
+                			</item>
 					<item id="3">
 						<label>31956</label>
 						<onclick>ActivateWindow(Music)</onclick>
