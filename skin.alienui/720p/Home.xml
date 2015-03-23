@@ -958,7 +958,7 @@
 						<visible>!Skin.HasSetting(HomeMenuNoVideosButton)</visible>
 					</item>
 					<item id="92">
-						<label>PLEX</label>
+						<label>31850</label>
 						<onclick>ActivateWindow(10025,&quot;plugin://plugin.video.plexbmc/?content_type=video&quot;,return)</onclick>
 						<icon>icon_video.png</icon>
 						<thumb>-</thumb>
